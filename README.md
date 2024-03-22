@@ -1,6 +1,6 @@
 # Java Programming Lab
 
-Welcome to the Java Programming Lab! This repository contains materials for the B.Tech. II Year II Sem. Java Programming Lab. Below you will find essential information about the course, including objectives, outcomes, list of experiments, and recommended tools.
+Welcome to the Java Programming Lab! This repository contains materials for the B.Tech. II Year II Sem. Java Programming Lab. Below you will find essential information about the course, list of experiments, and recommended tools.
 
 ## Course Information
 
@@ -10,21 +10,6 @@ Welcome to the Java Programming Lab! This repository contains materials for the 
 - **Tutorial Hours**: 0
 - **Practical Hours**: 2
 - **Credits**: 1
-
-## Course Objectives
-
-- To understand OOP principles.
-- To understand the Exception Handling mechanism.
-- To understand Java collection framework.
-- To understand multithreaded programming.
-- To understand swing controls in Java.
-
-## Course Outcomes
-
-- Able to write programs for solving real-world problems using Java OOP principles.
-- Able to write programs using Exceptional Handling approach.
-- Able to write multithreaded applications.
-- Able to write GUI programs using swing controls in Java.
 
 ## List of Experiments
 
