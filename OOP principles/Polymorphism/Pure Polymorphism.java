@@ -1,31 +1,25 @@
-class Animal {
-    public void sound() {
-        System.out.println("Animal makes a sound");
+class ParentClass {
+    int num = 10;
+
+    void showData() {
+        System.out.println("Inside ParentClass showData() method");
+        System.out.println("num = " + num);
     }
 }
 
-class Dog extends Animal {
-    @Override
-    public void sound() {
-        System.out.println("Dog barks");
+class ChildClass extends ParentClass {
+    void showData() {
+        System.out.println("Inside ChildClass showData() method");
+        System.out.println("num = " + num);
     }
 }
 
-class Cat extends Animal {
-    @Override
-    public void sound() {
-        System.out.println("Cat meows");
-    }
-}
-
-public class PolymorphismExample {
+public class PurePolymorphism {
     public static void main(String[] args) {
-        Animal animal1 = new Animal();
-        Animal animal2 = new Dog();
-        Animal animal3 = new Cat();
+        ParentClass obj = new ParentClass();
+        obj.showData();
 
-        animal1.sound(); 
-        animal2.sound(); 
-        animal3.sound(); 
+        obj = new ChildClass();
+        obj.showData();
     }
 }
