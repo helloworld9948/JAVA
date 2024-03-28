@@ -1,24 +1,17 @@
-abstract class Shape {
-    abstract double calculateArea();
-}
+abstract class It{  
+   It(){System.out.println("Information Technology");}  
+   abstract void run();  
+   void year(){System.out.println("second year");}  
+ }  
 
-class Circle extends Shape {
-    double radius;
-    Circle(double radius) { this.radius = radius; }
-    @Override double calculateArea() { return Math.PI * radius * radius; }
-}
+class Branch extends It{  
+    void run(){System.out.println("running safely..");}  
+}  
 
-class Rectangle extends Shape {
-    double length, width;
-    Rectangle(double length, double width) { this.length = length; this.width = width; }
-    @Override double calculateArea() { return length * width; }
-}
-
-public class AbstractionExample {
-    public static void main(String[] args) {
-        Shape circle = new Circle(5);
-        Shape rectangle = new Rectangle(4, 6);
-        System.out.println("Area of Circle: " + circle.calculateArea());
-        System.out.println("Area of Rectangle: " + rectangle.calculateArea());
-    }
-}
+class TestAbstraction2{  
+    public static void main(String args[]){  
+        It obj = new Branch();  
+        obj.run();  
+        obj.year();  
+    }  
+}  
