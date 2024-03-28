@@ -1,33 +1,33 @@
 class ParentClass {
     int a;
-
+    
     void setData(int a) {
         this.a = a;
     }
 }
 
-class Child1 extends ParentClass {
-    void display() {
-        System.out.println("Inside Child1 class");
-        System.out.println("Value of a in Child1: " + a);
+class ChildClass extends ParentClass {
+    void showData() {
+        System.out.println("Value of a is " + a);
     }
 }
 
-class Child2 extends ParentClass {
-    void display() {
-        System.out.println("Inside Child2 class");
-        System.out.println("Value of a in Child2: " + a);
+class Childclassone extends ParentClass {
+    void showData() {
+        System.out.println("Hai");
     }
 }
 
-public class InheritanceExample {
+class ChildThree extends ChildClass { 
+    void display() {
+        System.out.println("Hello");
+    }
+}
+
+public class SingleInheritance {
     public static void main(String[] args) {
-        Child1 child1 = new Child1();
-        child1.setData(10);
-        child1.display();
-
-        Child2 child2 = new Child2();
-        child2.setData(20);
-        child2.display();
+        ChildClass obj = new ChildClass();
+        obj.setData(100);
+        obj.showData();
     }
 }
