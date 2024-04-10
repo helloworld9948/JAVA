@@ -31,6 +31,8 @@ Welcome to the Java Programming Lab! This repository contains materials for the 
 
 9. [Write a Java program that handles all mouse events and shows the event name at the center of the window when a mouse event is fired. [Use Adapter classes]](https://github.com/helloworld9948/JAVA/blob/main/MouseEvents.java)
 
+### :bangbang: [AllOutputs](https://github.com/helloworld9948/JAVA/blob/main/Outputs.md)
+
 ## Recommended Tools
 
 - Eclipse IDE
