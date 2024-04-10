@@ -17,19 +17,19 @@ Welcome to the Java Programming Lab! This repository contains materials for the 
 
 2. [Write a Java program to demonstrate the OOP principles. [i.e., Encapsulation, Inheritance, Polymorphism, and Abstraction]](https://github.com/helloworld9948/JAVA/tree/main/OOP%20principles)
 
-3. [Write a Java program to handle checked and unchecked exceptions. Also, demonstrate the usage of custom exceptions in real-time scenarios.]
+3. [Write a Java program to handle checked and unchecked exceptions. Also, demonstrate the usage of custom exceptions in real-time scenarios.](https://github.com/helloworld9948/JAVA/tree/main/ExceptionHandling)
 
-4. [Write a Java program on Random Access File class to perform different read and write operations.]
+4. [Write a Java program on Random Access File class to perform different read and write operations.](https://github.com/helloworld9948/JAVA/blob/main/RandomIO.java)
 
 5. [Write a Java program to demonstrate the working of different collection classes. [Use package structure to store multiple classes].](https://github.com/helloworld9948/JAVA/tree/main/Collections)
 
-6. [Write a program to synchronize the threads acting on the same object. [Consider the example of any reservations like railway, bus, movie ticket booking, etc.]]
+6. [Write a program to synchronize the threads acting on the same object. [Consider the example of any reservations like railway, bus, movie ticket booking, etc.]](https://github.com/helloworld9948/JAVA/blob/main/ThreadsProg.java)
 
-7. [Write a program to perform CRUD operations on the student table in a database using JDBC.]
+7. [Write a program to perform CRUD operations on the student table in a database using JDBC.](https://github.com/helloworld9948/JAVA/tree/main/DatabaseOperations)
 
 8. [Write a Java program that works as a simple calculator. Use a grid layout to arrange buttons for the digits and for the +, -, *, % operations. Add a text field to display the result. Handle any possible exceptions like divided by zero.](https://github.com/helloworld9948/JAVA/tree/main/Calc)
 
-9. [Write a Java program that handles all mouse events and shows the event name at the center of the window when a mouse event is fired. [Use Adapter classes]]
+9. [Write a Java program that handles all mouse events and shows the event name at the center of the window when a mouse event is fired. [Use Adapter classes]](https://github.com/helloworld9948/JAVA/blob/main/MouseEvents.java)
 
 ## Recommended Tools
 
