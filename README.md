@@ -33,6 +33,8 @@ Welcome to the Java Programming Lab! This repository contains materials for the 
 
 ### :bangbang: [AllOutputs](https://github.com/helloworld9948/JAVA/blob/main/Outputs.md)
 
+### Orginal File (Reference)
+  - [Java Lab](https://github.com/helloworld9948/JAVA/blob/main/JAVA%20Lab.pdf) :white_check_mark:
 ## Recommended Tools
 
 - Eclipse IDE
